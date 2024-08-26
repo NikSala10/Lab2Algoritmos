@@ -21,17 +21,17 @@ class Nav extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="./src/components/nav/nav.css">
+            <link rel="stylesheet" href="/public/index.css">
 			<nav class= "navegador">
-                <div>
-                    <img src="src/assets/62da7ab5a3bc5d9a0e6927b7_1200px-Ubisoft__2017__Logo_2.svg-removebg-preview.png" alt="">
-                    <p>Play</p>
-                    <p>Shop</p>
-                    <p>Explore</p>
-                    <p>Help</p>
+                <div class= "links">
+                    <img src="src/assets/Logo Ubisoft_Mesa de trabajo 1.png" alt="">
+                    <p>PLAY</p>
+                    <p>SHOP</p>
+                    <p>EXPLORE</p>
+                    <p>HELP</p>
                 </div>
-                <div>
-                    <div>
+                <div class= "user-icon">
+                    <div class= "download">
                         <p>Download Ubisoft Connect</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                             <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>

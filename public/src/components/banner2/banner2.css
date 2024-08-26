@@ -1,0 +1,32 @@
+.sect-banner2  {
+    background-image: url(https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7u0o3i84kn2M0zywawe5fA/829fa9d992cc5772d4b009b122dbef07/ubisoft-evergreen_full_banner-swo_no_logo-early-access.jpg);
+    background-size: cover;
+    height: 390px;
+    width: 100%;
+    margin-top: 0;
+    background-position: center;
+    font-family: "ubisoft_sansbold", sans-serif;
+    color: white;
+    
+}
+.sect-banner2 img  {
+    width: 11%;
+    margin: 0;
+    padding: 0;
+}
+.sect-banner2 h1  {
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 4px 4px 6px rgb(0, 0, 0);
+}
+.sect-banner2 p  {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+#text-content  {
+   justify-content: center;
+}

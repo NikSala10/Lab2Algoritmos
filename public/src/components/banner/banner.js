@@ -24,9 +24,15 @@ class Banner extends HTMLElement {
 			<link rel="stylesheet" href="./src/components/banner/banner.css">
 			<section class="img-avatar">
                 <img src="./src/assets/ubisoft aviso_Mesa de trabajo 1.png" alt="">
-                <div>
+                <div id= "text-content">
                     <h1>PROTECT PANDORA. BECOME NA'VI.</h1>
                     <p>Reconnect with your lost heritage discover what it trully means to be Na'vi, and join other clans to <b></b> protect Pandora.</p>
+                </div>
+				<div id= "public-content">
+                    <p>XDEFIANT</p>
+					<p>BATTLECORE ARENA</p>
+					<p>THE CREW MOTORFEST</p>
+					<p>RIDERS REPUBLIC</p>
                 </div>
             </section>
     `;

@@ -22,9 +22,12 @@ class Banner2 extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
 			<link rel="stylesheet" href="./src/components/banner2/banner2.css">
-			<section>
-                <h1>Star Wars Outlaws</h1>
-                <p>Get 3 days Early Acces with Ubisoft+ Premium or Gold Edition.</p>
+			<section class= "sect-banner2">
+				<img src="./src/assets/ubisoft aviso_Mesa de trabajo 1.png" alt="">
+				<div id= "text-content">
+					<h1>Star Wars Outlaws</h1>
+					<p>Get 3 days Early Acces with Ubisoft+ Premium or Gold Edition.</p>
+				</div>
             </section>
 			
     `;
