@@ -1,31 +1,50 @@
 class Button extends HTMLElement {
-	static get observedAttributes() {
-		return ['label', 'color'];
-	}
+    static get observedAttributes() {
+        return ["color", "label"];
+}
 
-	constructor() {
-		super();
-		this.attachShadow({ mode: 'open' });
-	}
+constructor() {
+    super();
+    this.attachShadow({ mode: "open" });
+}
 
-	connectedCallback() {
-		this.render();
-	}
+connectedCallback() {
+    this.render();
+    this.updateStyle();
+    this.updateStyle(); 
+}
 
-	attributeChangedCallback(propName, oldValue, newValue) {
-		if (oldValue !== newValue) {
-			this[propName] = newValue;
-			this.render();
-		}
-	}
+attributeChangedCallback(name, oldValue, newValue) {
+    if (oldValue !== newValue) {
+    // Comprueba si realmente cambió el valor
+    if (name === this.color) {
+        this.updateStyle();
+    } else if (name === this.label) {
+        this.updateLabel();
+    }
+    }
+}
+
+updateStyle() {
+    const button = this.shadowRoot.querySelector("button");
+    const color = this.getAttribute("color") || "gray"; //Gray por si no hay color, es uno por defecto
+    button.style.backgroundColor = color;
+}
+
+updateLabel() {
+    const button = this.shadowRoot.querySelector("button");
+    const label = this.getAttribute("label") || "Botón";
+    button.textContent = label;
+}
+
 
 	render() {
 		this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="./src/components/button/button.css">
-			 <button style="color: ${color};">${label}</button>
+		<link rel="stylesheet" href="./src/components/button/button.css">
+			<button id="btn">${this.getAttribute("label") || "Botón"}</button>	
     `;
 	}
 }
 
-customElements.define('button-component', Button);
+customElements.define('btn-component', Button);
 export default Button;
