@@ -1,5 +1,5 @@
 button {
-    width: 12%;
+    min-width: 15%;
     padding: 15px;
     color: white;
     font-weight: bolder;

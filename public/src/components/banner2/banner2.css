@@ -7,6 +7,7 @@
     background-position: center;
     font-family: "ubisoft_sansbold", sans-serif;
     color: white;
+   
     
 }
 .sect-banner2 img  {
@@ -28,8 +29,7 @@
     font-size: 20px;
     text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
-#text-content {
-   justify-content: center;
-    display: flex;
-    flex-direction: column;
+.text-content {
+  
+    margin-top: 3%;
 }
