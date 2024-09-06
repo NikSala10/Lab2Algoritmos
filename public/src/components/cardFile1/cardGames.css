@@ -14,7 +14,7 @@
 }
 
 product-card  {
-    max-width: 212px;
+    max-width: 14%;
     max-height:380px ;
 }
  img  {
@@ -27,6 +27,7 @@ product-card  {
     font-family: "ubisoft_sansbold", sans-serif;
     width: auto;
     min-height: 40px;
+    
 }
 
 .icon-games  {

@@ -221,11 +221,21 @@ class AppContainer extends HTMLElement {
                 </div>
 				<div class="comp2">
 					<h1>Ubisoft Connect</h1>	
-					<p>All your games, friends, and benefits in one place. PC | Console | Mobile</p>
-					<btn-component id="btn" color="#006EF5"label="GET UBISOFT CONNECT"></btn-component>
-                </div>
-					
+					<p>All your games, friends, and benefits in one place. <b>PC | Console | Mobile<b></p>
+					<div id="btn-final">
+						<btn-component id="btn" color="#006EF5"label="GET UBISOFT CONNECT"></btn-component>
+					</div>
+                </div>	
 			</section>
+			<div class="bnr">
+				 <div id="bnr1">
+					<p>Visit Other Ubisoft Channels</p>
+                </div>
+				 <div id="bnr2">
+					<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4q2TQYDbTT3vrE8YHg6Hol/03d4c72747a0ed2f193ec9c939012c7a/social-icon-discord.png">
+					<img id="mg2" src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1JeeWgjzsIPQmXXpM8W0Go/ef571a00fc0d26741461c941d0ebf134/ubi-social-linkedin-icon.png">
+                </div>
+			</div>
     `;
 	}
 }

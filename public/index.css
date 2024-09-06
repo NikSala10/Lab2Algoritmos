@@ -69,11 +69,16 @@ app-container  {
     color: #D80388;
     
 }
+.last-news div p  {
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+
+}
 .last-news div p:hover  {
     color: black;
     border-bottom: 2px solid black;
     
 }
+
 .last-news  {
     text-align: center;
 }
@@ -263,13 +268,61 @@ app-container  {
     background-color: #091225;
 }
 #comp1 img  {
-    width: 70%;
+    width: 79%;
+    margin-left: 6rem;
     
 }
 #comp1  {
-    width: 50%;
-    margin: 4rem;
+    width: 42%;
+    
 }
-#comp2  {
-    width: 50%;
+.comp2  {
+    width: 58%;
+    margin-top: 2%;
+    margin-right: 10px;
+}
+.comp2 h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 0px 0px 0.2px rgb(255, 255, 255);
+}
+.comp2 p  {
+    color: white;
+    font-size: 27px;
+    margin-top: 2%;
+    width: 95%;
+}
+#btn-final  {
+    margin-top: 2%;
+    margin-left: -580px;
+}
+
+
+.bnr  {
+    background-color: black;
+    display: flex;
+}
+#bnr1  {
+    width: 48%;
+    color: #9B9B9B;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-left: 4rem;
+}
+#bnr1 p  {
+   margin-top: 2.5%;
+}
+#bnr2  {
+    width: 58%;
+    padding: 5px;
+    
+}
+#bnr2 img  {
+    width: 4%;
+    top: 3px;
+    margin-left: 20px;
+    
+}
+#mg2  {
+    margin-left: 20px;
 }
