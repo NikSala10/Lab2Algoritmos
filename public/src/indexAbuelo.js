@@ -12,7 +12,9 @@ class AppContainer extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
+
 		 	<link rel="stylesheet" href="/public/index.css">
+			<link rel="stylesheet" href="./src/components/button/button.css">
 			<link rel="stylesheet" href="./src/components/banner2/banner2.css">
 			<link rel="stylesheet" href="src/components/cardFile1/cardGames.css">
             <nav-component></nav-component>
@@ -83,8 +85,11 @@ class AppContainer extends HTMLElement {
 					></product-card>
 
 				</div>
+				<div id="btn-1">
+					<btn-component id="btn" color="#D80388"label="VIEW ALL GAMES"></btn-component>
+				</div>
 
-				<btn-component id="btn" color="#D80388"label="VIEW ALL GAMES"></btn-component>
+				
 			</section>
 
 
@@ -198,10 +203,26 @@ class AppContainer extends HTMLElement {
 			<section class="sectWallpapers">
                 <div id="sect1">
 					<h1>Ubisoft Fan Kits, Wallpapers and More!</h1>	
-					<btn-component id="btn" color="#D80388"label="LEARN MORE"></btn-component>
+					<div id="button">
+						<btn-component id="btn" color="#D80388"label="LEARN MORE"></btn-component>
+					</div>
                 </div>
 				<div class="sect2">
 						<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3GuXXIwqLXe9SOVWAElIX1/3f6ef0ee0af05c4db2b96fe3f7e71892/2023_06_Multi-Brands.png">
+                </div>
+					
+			</section>
+
+
+			
+			<section class="ubisoft-connect">
+                <div id="comp1">
+					<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6SfvkXTESPJr6U4faPWqfA/dce1ef7c7faeba75c4fa58e172aaaa20/ubisoft-connect-devices-visual-mockup.png">
+                </div>
+				<div class="comp2">
+					<h1>Ubisoft Connect</h1>	
+					<p>All your games, friends, and benefits in one place. PC | Console | Mobile</p>
+					<btn-component id="btn" color="#006EF5"label="GET UBISOFT CONNECT"></btn-component>
                 </div>
 					
 			</section>
