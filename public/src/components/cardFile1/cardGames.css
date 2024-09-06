@@ -26,21 +26,21 @@ product-card  {
     font-size: 17px;
     font-family: "ubisoft_sansbold", sans-serif;
     width: auto;
+    min-height: 40px;
 }
-.card  {
-    flex: 1 1 0;
-}
+
 .icon-games  {
     display: flex;
     width: 50%;
     min-height: max-content;
+    justify-content: center;
     align-items: flex-end;
 }
 .icon-games svg  {
     color: #676767;
-    height: 50px;
+    height: 20px;
+    align-self: flex-end; 
 }
-
 #title-games  {
     font-weight: bolder;
     font-size: 38px;

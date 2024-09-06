@@ -79,30 +79,49 @@ app-container  {
 #all-news  {
     font-weight: bold;
 }
-.decriptgame  {
-    display: flex;
-}
 
 
 
 
-    
 .decriptgame{
-    
+    width: 100%;
     display: flex;
-    align-items: center;
+    gap: 2rem;
     justify-content: center;
+    padding: 2.5rem;
+    margin-top: 0.4rem;
+}
+
+.decriptgame .control1  {
+    width: 50%;
+}
+.decriptgame .control2  {
+    width: 50%;
+}
+#firstImg  {
+    width: 100%;
     
 }
-#firstImg img  {
-    width: 10%;
+
+.controlCard  {
+    margin-bottom: 4rem;
+    
 }
-.controlCard img  {
-    width: 10%;
+.controlCard2  {
+    margin-top: 3rem;
 }
 
-
-
+.control1 p  {
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.control1 h3 {
+    margin-top: 0;
+    font-weight:bolder;
+    line-height: 1.5rem;
+    margin-right: 1rem;
+}
 
 
    

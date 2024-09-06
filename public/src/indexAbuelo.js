@@ -104,26 +104,23 @@ class AppContainer extends HTMLElement {
 
 
 
-			<section clas="decriptgame">
+			<section class="decriptgame">
 				<div class="control1">
 					<div>
 						<img id="firstImg"src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/rm7qysetoooc2yFF23UcD/4dc73df623f9f10280460d19142c31cf/PoPTLC_DLC_Keyart_16x9_090524_6PM_CEST.jpg">
-						<p>September 2, 2024</p>
-						<h3>The Evolution of Assassin’s Creed’s Stealth</h3>
+						<p>September 5, 2024</p>
+						<h3>4 Biggest Things You Need to Know About Prince of Persia: The Lost Crown's Mask of Darkness Story DLC</h3>
 					</div>
 
-					<div class="controlCard">
+					<div class="controlCard2">
 						<descript-gamecard
 							img="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7I4u8DfLe8AYUQOTd22JdH/3d8cd85684ebaa42c3eb53823f2890e9/Y9S3_Operator_Keyart.jpg"
-							title = "Rainbow Six Siege – Operation Twin <br> Shells Operator and Gadget Guide"
-							date= "26 agosto 2024"
+							title = "Rainbow Six Siege – Operation Twin Shells Operator and Gadget Guide"
+							date= "August 26, 2024"
 						></descript-gamecard>
 					</div>
 						
 				</div>
-
-
-
 
 				<div class="control2">
 					<div class="controlCard">

@@ -1,14 +1,25 @@
+
 div  {
     display: flex;
+    font-family: "ubisoft_sansbold", sans-serif;
 }
 
 div img  {
-    width: 40%;
+    width: 50%;
 }
 div div{
-   flex-direction: column;
+    flex-direction: column;
     justify-content: left;
     align-items: left;
-    padding: 1rem 0 0 2rem;
-    gap: 1rem;
+    margin-left: 2rem;
+}
+
+p  {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+h3  {
+    margin-top: 0;
+    font-weight:bolder;
+    line-height: 1.5rem;
 }
