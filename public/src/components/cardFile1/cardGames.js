@@ -1,6 +1,6 @@
 class CardGames extends HTMLElement {
 	static get observedAttributes() {
-		return ['img', 'subtitle', 'icon1', 'icon2', 'icon3', 'icon4', 'icon5'];
+		return ['img', 'subtitle', 'icon1', 'icon2', 'icon3', 'icon4'];
 	}
 
 	constructor() {
@@ -22,15 +22,15 @@ class CardGames extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
 			<link rel="stylesheet" href="./src/components/cardFile1/cardGames.css">
-	
+			<div class="card">
 				<img src=${this.img}>
-					<h3 id= "subtitle">${this.subtitle}</h3>
+				<h3 class= "subtitle">${this.subtitle}</h3>
+			</div>
 					<div class="icon-games">
 						<svg>${this.icon1}</svg>
 						<svg>${this.icon2}</svg>
 						<svg>${this.icon3}</svg>
 						<svg>${this.icon4}</svg>
-						<svg>${this.icon5}</svg>
 					</div>
 			
     `;

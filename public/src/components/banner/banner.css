@@ -9,6 +9,7 @@
 
 .img-avatar img  {
     width: 15%;
+    margin-top: 3%;
 }
 .img-avatar div  {
     text-align: center;
@@ -36,7 +37,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 24%;
+    margin-top: 20%;
 }
 #public-content p  {
     margin-right: 5%;
