@@ -21,7 +21,7 @@ class AppContainer extends HTMLElement {
 			<section class= "sect-banner2">
 				<img src="./src/assets/ubisoft aviso_Mesa de trabajo 1.png" alt="">
 				<div class= "text-content"><banner2-component></banner2-component></div>
-				<btn-component id="btn" color="#D80388"label="JOIN NOW"></btn-componentcolor>
+				<btn-component id="btn" color="#D80388"label="JOIN NOW"></btn-component>
              </section>
 
 
@@ -84,7 +84,7 @@ class AppContainer extends HTMLElement {
 
 				</div>
 
-				<btn-component id="btn" color="#D80388"label="VIEW ALL GAMES"></btn-componentcolor>
+				<btn-component id="btn" color="#D80388"label="VIEW ALL GAMES"></btn-component>
 			</section>
 
 
@@ -146,10 +146,11 @@ class AppContainer extends HTMLElement {
 							title="Heroes of Might and Magic: Olden Era Unveiled at Gamescom"
 						></descript-gamecard>
 					</div>
-					<btn-component id="btn" color="#D80388"label="ALL NEWS"></btn-componentcolor>
+					
 			</section>
-
-
+			<div id="button-sect">
+				<btn-component id="btn" color="#D80388"label="ALL NEWS"></btn-component>
+			</div>
 
 
 
@@ -196,11 +197,11 @@ class AppContainer extends HTMLElement {
 
 			<section class="sectWallpapers">
                 <div id="sect1">
-						
+					<h1>Ubisoft Fan Kits, Wallpapers and More!</h1>	
+					<btn-component id="btn" color="#D80388"label="LEARN MORE"></btn-component>
                 </div>
 				<div class="sect2">
-						<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1Jiy0xlbsM3yAfOBlWqLjP/73597f0849b0df6a3fb610e86f8a83a7/ubi-inside_ubisoft-story_of_the_crew.jpg">
-                		<h3>THE INSIDE STORY OF THE CREW</h3>
+						<img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3GuXXIwqLXe9SOVWAElIX1/3f6ef0ee0af05c4db2b96fe3f7e71892/2023_06_Multi-Brands.png">
                 </div>
 					
 			</section>
